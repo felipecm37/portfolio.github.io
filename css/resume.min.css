@@ -1,0 +1,242 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+    font-family: 'Open Sans', serif;
+    padding-top: 54px;
+    color: #868e96
+}
+
+li {
+    list-style-type: disc;
+}
+
+.rodape { 
+    background: #343a40;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Chat WAPP */
+.wsapp { position: fixed; right: 20px; bottom: 10px; }
+
+.wsapp img { max-width: 60px;}
+
+
+@media (min-width:992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 3.5rem
+}
+
+.tooltip {
+    text-decoration: none;
+    position: relative;
+}
+
+.tooltip span {
+    display: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: black;
+    background: white;
+}
+
+.tooltip span img {
+    float: left;
+    margin: 0px 8px 8px 0;
+}
+
+.tooltip:hover span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: auto;
+    max-width: 320px;
+    min-height: 128px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-left: 32px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.feiras {
+    margin: 0 0 23px 0;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.35rem
+}
+
+.list-social-icons a {
+    color: #495057
+}
+
+.list-social-icons a:hover {
+    color: #2f920e
+}
+
+.list-social-icons a .fa-lg {
+    font-size: 1.75rem
+}
+
+.list-icons {
+    font-size: 3rem
+}
+
+.list-icons .list-inline-item i:hover {
+    color: #2f920e
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+
+
+@media (min-width:992px) {
+    #sideNav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh
+    }
+
+    #sideNav .navbar-brand {
+        display: flex;
+        margin: auto auto 0;
+        padding: .5rem
+    }
+
+    #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: .5rem solid rgba(255, 255, 255, .2)
+    }
+
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto
+    }
+
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block
+    }
+}
+
+section.resume-section {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none
+}
+
+@media (min-width:768px) {
+    section.resume-section {
+        min-height: 60vh
+    }
+
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem
+    }
+}
+
+@media (min-width:992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important
+    }
+}
+
+/*
+.bg-primary {
+    background-color: #2f920e !important
+}
+*/
+
+/* effect nav left */
+.bg-primary {
+    background: linear-gradient(-45deg, #adff4f, #206306, #0e32cf, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.text-primary {
+    color: #2f920e
+}
+
+a {
+    color: #2f920e
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #2f920e
+}
